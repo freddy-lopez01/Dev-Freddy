@@ -23,23 +23,12 @@ function NavBar() {
         <nav className="Navbar">
             <div className="Navbar-container">
                 <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                   ScaperLab
+                  Freddy Lopez
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className="nav-item">
-                        <Link to='/' className="nav-links" onClick={closeMobileMenu}>
-                            Home
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/Tools' className="nav-links" onClick={closeMobileMenu}>
-                        Tools
-
-                        </Link>
-                    </li>
                     <li className="nav-item">
                         <Link to='/Layouts' className="nav-links" onClick={closeMobileMenu}>
                         Layouts
