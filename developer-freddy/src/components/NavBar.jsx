@@ -22,9 +22,10 @@ function NavBar() {
     <>
         <nav className="Navbar">
             <div className="Navbar-container">
-                <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                  Freddy Lopez
-                </Link>
+		        <div classname="profile">
+			        <img src="profile.png" alt="Freddy Lopez"/>
+		        </div>
+                <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>Freddy Lopez</Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
@@ -35,9 +36,7 @@ function NavBar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/about' className="nav-links" onClick={closeMobileMenu}>
-                          About
-                        </Link>
+                        <Link to='/about' className="nav-links" onClick={closeMobileMenu}>About</Link>
                     </li>
                 </ul>
             </div>

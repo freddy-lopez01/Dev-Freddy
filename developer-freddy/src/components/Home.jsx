@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 
 
 
@@ -7,7 +8,11 @@ import React from "react";
 function Home () {
     return (
         <>
-        Hello
+            <div className="root">
+                Hello
+                <img src="profile.HEIC" alt="tmp"></img>
+
+            </div>
         </>
     )
 }

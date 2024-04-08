@@ -20,6 +20,11 @@
   max-width: 100%;
 }
 
+.profile img {
+  width: 200px;
+  height: 200px;
+}
+
 .navbar-logo {
   color: #D2D2D2;
   justify-self: start;
