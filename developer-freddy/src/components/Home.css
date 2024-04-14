@@ -1,7 +1,18 @@
 .root {
   margin-top: 100px;
-  background-color: aqua;
 }
 
 
+.root .hero {
+  display: flex;
+  height: 40%;
+  width: 40%;
+  justify-content: center;
+}
 
+.hero img {
+  padding: 30%;
+  width: 120%;
+  height: 60%;
+  border-radius: 90px;
+}

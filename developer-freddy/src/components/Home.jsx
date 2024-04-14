@@ -9,8 +9,10 @@ function Home () {
     return (
         <>
             <div className="root">
-                Hello
-                <img src="profile.HEIC" alt="tmp"></img>
+		<div className="hero">
+			<img className="hereoPic" src="profile.png" alt="profile pic"/>
+			
+		</div>
 
             </div>
         </>

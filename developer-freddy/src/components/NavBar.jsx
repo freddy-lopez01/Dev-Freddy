@@ -23,7 +23,6 @@ function NavBar() {
         <nav className="Navbar">
             <div className="Navbar-container">
 		        <div classname="profile">
-			        <img src="profile.png" alt="Freddy Lopez"/>
 		        </div>
                 <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>Freddy Lopez</Link>
                 <div className="menu-icon" onClick={handleClick}>
