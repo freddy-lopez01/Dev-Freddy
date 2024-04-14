@@ -35,6 +35,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  border-right: 6px solid grey;
 }
 
 
