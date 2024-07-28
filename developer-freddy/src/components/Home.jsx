@@ -1,19 +1,15 @@
 import React from "react";
 import "./Home.css";
-
-
-
+import Carousel from './Carousel';
+import Bio from './bio';
 
 
 function Home () {
     return (
         <>
-            <div className="root">
-		<div className="hero">
-			<img className="hereoPic" src="profile.png" alt="profile pic"/>
-			
-		</div>
-
+            <div className="main">
+              <Carousel/>
+              <Bio/>
             </div>
         </>
     )

@@ -25,9 +25,6 @@ function NavBar() {
 		        <div classname="profile">
 		        </div>
                 <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>Freddy Lopez</Link>
-                <div className="menu-icon" onClick={handleClick}>
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className="nav-item">
                         <Link to='/Layouts' className="nav-links" onClick={closeMobileMenu}>

@@ -1,0 +1,19 @@
+/* Carousel.css */
+.carousel-container {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+    background: transparent; /* Ensure the container has no background */
+}
+.logo-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent; /* Ensure each slide has no background */
+}
+.logo-image {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    background: transparent; /* Ensure the image has no background */
+}
+
