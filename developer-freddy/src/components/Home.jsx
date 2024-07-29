@@ -9,7 +9,9 @@ function Home () {
         <>
             <div className="main">
               <Carousel/>
-              <Bio/>
+              <div className="submain">
+                <Bio/>
+              </div>
             </div>
         </>
     )
