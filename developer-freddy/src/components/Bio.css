@@ -8,12 +8,12 @@
 .bio-content {
     display: flex;
     flex-direction: row;
-    max-width: 800px;
+    max-width: 80%;
     width: 100%;
     background-color: #f8f9fa;
     padding: 20px;
     border: 1px solid #e9ecef;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -38,8 +38,8 @@
 }
 
 .bio-photo img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -52,7 +52,11 @@
     }
 
     .bio-text {
-        margin: 0 0 20px 0;
+        margin: 20px 0 0 0; /* Adjusted to add margin at the top for spacing */
+    }
+
+    .bio-photo {
+        margin-bottom: 20px; /* Added to ensure space between the image and the text */
     }
 
     .bio-photo img {

@@ -1,6 +1,7 @@
 // Carousel.js
 import React from 'react';
 import './Bio.css'; // Custom styles for the carouse
+import profilePic from './assets/profile.png'
 
 function Bio () {
     return (
@@ -14,7 +15,7 @@ function Bio () {
                     </p>
                 </div>
                 <div className="bio-photo">
-                    <img src="./assets/profile.png" alt="Freddy Lopez" />
+                    <img src={profilePic} alt="Freddy Lopez" />
                 </div>
             </div>
           </div>

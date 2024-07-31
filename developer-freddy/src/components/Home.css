@@ -3,8 +3,11 @@
 
 .main {
 
-  height:100vh;
+  height:auto;
+  /*background: gray;*/
   background-image: url("assets/backg.jpg");
   background-size: cover;
+  background-attachment: fixed; /* Keeps the background fixed */
+  background-position: center; /* Center the background image */
 
 }

@@ -16,11 +16,13 @@ const Carousel = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 2200,
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 0,
+        arrows: false,
+        cssEase: 'linear',
     };
 
     const logos = [

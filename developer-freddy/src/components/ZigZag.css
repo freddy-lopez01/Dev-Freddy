@@ -1,0 +1,61 @@
+.zigzag-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.zigzag-card {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    overflow: hidden;
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Move down slightly */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for fade-in */
+}
+
+.card-image {
+    flex: 1;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card-description {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.zigzag-card.left {
+    flex-direction: row;
+}
+
+.zigzag-card.right {
+    flex-direction: row-reverse;
+}
+
+.fade-in {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Reset position */
+}
+
+@media screen and (max-width: 768px) {
+    .zigzag-card {
+        flex-direction: column;
+    }
+
+    .card-description {
+        text-align: center;
+    }
+}
+
