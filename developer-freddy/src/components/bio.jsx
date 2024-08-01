@@ -9,13 +9,16 @@ function Bio () {
           <div className="bio-container">
             <div className="bio-content">
                 <div className="bio-text">
-                    <h2>Freddy Lopez</h2>
+                    <h1>Hi, I'm Freddy! Welcome!</h1>
                     <p>
-                        Welcome to my bio! I specialize in configuring software for researchers on the cluster to optimize and solve issues with their workflows. I work with Linux and HPC in the research sector and love interacting with and helping customers find solutions to issues.
+                      I am a local of Oregon and the Pacific Northwest. I graduated from the University of Oregon with a degree in computer science and a minor in chemistry. I currently work as an HPC Systems Administrator with the Research Advanced Computing Services (RACS) team. Working isn't all I do; I have many different hobbies and skills that I have picked up over the years, making life both fulfilling and exciting.
                     </p>
-                </div>
-                <div className="bio-photo">
-                    <img src={profilePic} alt="Freddy Lopez" />
+                    <p>
+                      I throughly enjoy HPC adminstration as I get to interact with researchers daily and help them with any needs or issues that they have; from Software to workflow optimizations. 
+                    </p>
+                    <p>
+                      HPC isn't the only thing I enjoy doing, keep scrolling to learn more about me and who I am as a person outside of the office!
+                    </p>
                 </div>
             </div>
           </div>

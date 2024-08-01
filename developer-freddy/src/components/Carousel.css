@@ -2,6 +2,7 @@
 .carousel-container {
     padding-top: 170px;
     padding-left: 10%;
+    padding-bottom:10%;
     width: 80%;
     margin: auto;
     background: transparent; /* Ensure the container has no background */

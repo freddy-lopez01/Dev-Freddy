@@ -3,11 +3,18 @@
 
 .main {
 
-  height:auto;
-  /*background: gray;*/
-  background-image: url("assets/backg.jpg");
-  background-size: cover;
+  
+
+  height: auto;
+  background-image: url("assets/code-back.jpg");
+  /*background-image: url("assets/code-back2.jpg");*/
+  background-size: 100% auto; /* Ensures the image fits the width of the container */
   background-attachment: fixed; /* Keeps the background fixed */
-  background-position: center; /* Center the background image */
+  background-position: center top; /* Centers the background image horizontally and aligns it to the top */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+
+.submain {
 
 }

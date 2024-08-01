@@ -4,19 +4,23 @@ import './ZigZag.css';
 const cards = [
     {
         img: 'datacenter.jpeg',
-        description: 'This is the description for the first card.'
+        description: 'This is the description for the first card.',
+        id: 1
     },
     {
         img: 'duo-tank.jpg',
-        description: 'This is the description for the second card.'
+        description: 'This is the description for the second card.',
+        id: 2
     },
     {
         img: 'tetra.jpg',
-        description: 'This is the description for the third card.'
+        description: 'This is the description for the third card.',
+        id: 3
     },
     {
         img: 'mag.png',
-        description: 'This is the description for the fourth card.'
+        description: 'This is the description for the fourth card.',
+        id: 4
     }
 ];
 
@@ -26,28 +30,29 @@ const ZigZagCards = () => {
 
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry, index) => {
+            entries.forEach((entry) => {
                 if (entry.isIntersecting) {
-                    setIsVisible((prev) => {
-                        const newVisible = [...prev];
-                        newVisible[index] = true; // Mark the card as visible
-                        return newVisible;
-                    });
-                    observer.unobserve(entry.target); // Stop observing once visible
+                    const index = cardRefs.current.indexOf(entry.target);
+                    if (index !== -1) {
+                        setIsVisible((prev) => {
+                            const newVisible = [...prev];
+                            newVisible[index] = true; // Mark the card as visible
+                            return newVisible;
+                        });
+                        observer.unobserve(entry.target); // Stop observing once visible
+                    }
                 }
             });
         });
 
-        const currentRefs = cardRefs.current; // Copy the current refs to a variable
-
-        currentRefs.forEach((card) => {
+        cardRefs.current.forEach((card) => {
             if (card) {
                 observer.observe(card);
             }
         });
 
         return () => {
-            currentRefs.forEach((card) => {
+            cardRefs.current.forEach((card) => {
                 if (card) {
                     observer.unobserve(card);
                 }
@@ -59,7 +64,7 @@ const ZigZagCards = () => {
         <div className="zigzag-container">
             {cards.map((card, index) => (
                 <div
-                    key={index}
+                    key={card.id}
                     ref={(el) => (cardRefs.current[index] = el)}
                     className={`zigzag-card ${index % 2 === 0 ? 'left' : 'right'} ${isVisible[index] ? 'fade-in' : ''}`}
                 >

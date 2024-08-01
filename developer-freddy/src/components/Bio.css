@@ -1,7 +1,9 @@
 .bio-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    width:80%;
     padding: 20px;
 }
 
@@ -10,30 +12,38 @@
     flex-direction: row;
     max-width: 80%;
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: transparent;
     padding: 20px;
-    border: 1px solid #e9ecef;
+    /*border: 1px solid #e9ecef;*/
     border-radius: 20px;
+    background-color: rgb(0 0 0 / 50%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bio-text {
     flex: 1;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.bio-text h2 {
+.bio-text h1 {
     margin: 0 0 10px 0;
-    font-size: 1.8em;
+    font-size: 5em;
+    color: #D2D2D2;
 }
 
 .bio-text p {
-    margin: 0;
-    font-size: 1.2em;
-    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #D2D2D2;
 }
 
 .bio-photo {
+    /* commented out my picture for now */
+    opacity: 0;
+
+
+
     flex-shrink: 0;
 }
 

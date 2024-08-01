@@ -9,8 +9,8 @@ function Home () {
     return (
         <>
             <div className="main">
-              <Carousel/>
               <div className="submain">
+                <Carousel/>
                 <Bio/>
               </div>
               <ZigZagCards/>

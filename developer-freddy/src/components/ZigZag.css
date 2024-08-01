@@ -2,21 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    margin-top: 20vh;
+    padding: 30px;
+    background-color: #A6A5AD;
 }
 
 .zigzag-card {
     display: flex;
     align-items: center;
     width: 80%;
-    margin: 20px 0;
+    margin: 40px 0; /* Increased margin to add more space between cards */
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: transparent;
+    background-color: #F4F5F4;
     overflow: hidden;
     opacity: 0; /* Start invisible */
     transform: translateY(20px); /* Move down slightly */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for fade-in */
+    transition: opacity 1.5s ease, transform 1.5s ease; /* Increased transition duration to 1 second */
 }
 
 .card-image {
