@@ -23,7 +23,7 @@ const cards = [
     {
         img: 'mag.png',
         title: '..a Designer',
-        description: 'This is the description for the fourth card.',
+        description: 'new content here',
         id: 4
     }
 ];
