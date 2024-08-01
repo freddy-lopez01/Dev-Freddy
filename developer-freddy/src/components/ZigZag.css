@@ -4,7 +4,11 @@
     align-items: center;
     margin-top: 20vh;
     padding: 30px;
-    background-color: #A6A5AD;
+    background-color: #F4F5F4;
+}
+.zigzag-container h1{
+  padding:40px;
+  font-size:80px;
 }
 
 .zigzag-card {
@@ -13,8 +17,8 @@
     width: 80%;
     margin: 40px 0; /* Increased margin to add more space between cards */
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #F4F5F4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
     overflow: hidden;
     opacity: 0; /* Start invisible */
     transform: translateY(20px); /* Move down slightly */
@@ -23,19 +27,25 @@
 
 .card-image {
     flex: 1;
+
 }
 
 .card-image img {
+    padding:25px;
     width: 100%;
     height: auto;
     border-radius: 20px;
     object-fit: cover;
 }
 
+.card-description h2{
+  margin-bottom: 3%;
+}
 .card-description {
     flex: 2;
-    padding: 20px;
+    padding: 110px; 
     text-align: left;
+    font-size: 20px;
 }
 
 .zigzag-card.left {
