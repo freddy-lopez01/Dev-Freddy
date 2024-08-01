@@ -23,7 +23,7 @@ const cards = [
     {
         img: 'mag.png',
         title: '..a Designer',
-        description: 'new content here',
+        description: 'I enjoy creating mock magazine and poster style works as it is a diffrent form of artistic expression.',
         id: 4
     }
 ];
