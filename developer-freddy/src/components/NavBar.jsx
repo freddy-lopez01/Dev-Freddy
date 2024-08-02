@@ -27,6 +27,9 @@ function NavBar() {
                 <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>Freddy Lopez</Link>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className="nav-item">
+                        <Link to='/' className="nav-links" onClick={closeMobileMenu}>Home</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link to='/Projects' className="nav-links" onClick={closeMobileMenu}>
                         Projects
                         </Link>
