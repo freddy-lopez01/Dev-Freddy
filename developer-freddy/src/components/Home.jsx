@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import Carousel from './Carousel';
 import Bio from './bio';
 import ZigZagCards from './ZigZag';
 import SocialGrid from './SocialGrid';

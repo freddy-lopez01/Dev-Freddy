@@ -49,22 +49,6 @@
     color: #D2D2D2;
 }
 
-.bio-photo {
-    /* commented out my picture for now */
-    opacity: 0;
-
-
-
-    flex-shrink: 0;
-}
-
-.bio-photo img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 @media (max-width: 768px) {
     .bio-content {
         flex-direction: column;

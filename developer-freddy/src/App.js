@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Imported Pages comprised of multiple components
 import NavBar from './components/NavBar.jsx';

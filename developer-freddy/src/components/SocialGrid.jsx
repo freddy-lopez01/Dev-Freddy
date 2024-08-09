@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faJira, faInstagram, faLinkedinIn, faYoutube, faPinterestP, faGithub, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { faJira, faInstagram, faLinkedinIn, faYoutube, faGithub, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import './SocialGrid.css';
 
 // Array of social media platforms with their icons and URLs

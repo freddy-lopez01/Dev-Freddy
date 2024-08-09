@@ -1,7 +1,6 @@
 // Carousel.js
 import React from 'react';
 import './Bio.css'; // Custom styles for the carouse
-import profilePic from './assets/profile.png'
 
 function Bio () {
     return (

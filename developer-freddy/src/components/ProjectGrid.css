@@ -1,0 +1,42 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.project-grid-container {
+  opacity: 0; /* Start with the component invisible */
+  animation: fadeIn 2.5s ease forwards;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between boxes */
+  padding: 60px 150px 60px 150px; /* Padding around the grid */
+  height: auto;
+}
+
+.project-grid-item {
+  background-color: #f0f0f0; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 50px; /* Padding inside the box */
+  text-align: center; /* Center text */
+  transition: transform 0.3s; /* Smooth scale transition */
+  height: 50vh;
+}
+
+.project-grid-item:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+
+.project-grid-item a {
+  padding-top: 19vh;
+  text-decoration: none; /* Remove underline */
+  color: #D2D2D2;
+  font-weight: bold; /* Bold text */
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
