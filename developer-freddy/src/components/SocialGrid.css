@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3vh;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 5vh;
+  padding-bottom: 20vh;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.grid-item:hover {
+  background-color: #b0b0b0;
+  transform: scale(1.1);
+}
+
+/* Ensure icons are black */
+.grid-item a {
+  color: black; /* Set the icon color to black */
+  text-decoration: none; /* Remove underline */
+}
+
+.grid-item i {
+  font-size: 24px;
+  color: inherit; /* Inherit color from parent anchor tag */
+}
+

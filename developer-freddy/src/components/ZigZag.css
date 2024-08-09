@@ -29,12 +29,18 @@
     flex: 1;
 
 }
-
-.card-image img {
+.zigzag-card .card-image video {
     padding:25px;
     width: 100%;
     height: auto;
-    border-radius: 20px;
+    max-height: auto; /* Adjust the height to your preference */
+    object-fit: cover; /* Ensures the image/video covers the container proportionally */
+}
+
+.zigzag-card .card-image img {
+    padding:25px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
