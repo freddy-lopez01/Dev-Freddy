@@ -1,0 +1,11 @@
+.gallery-grid {
+  margin-top: 10vh;
+}
+
+
+.gallery-grid h1 {
+  padding: 10vh;
+  display: flex;
+  justify-content: center;
+
+}

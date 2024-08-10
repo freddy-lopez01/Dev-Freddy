@@ -1,0 +1,40 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns for desktop */
+  gap: 26px;
+  padding: 45px;
+}
+
+.image-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.image-item.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(1, 1fr); /* 2 columns for tablet/mobile */
+  }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+  .image-grid {
+    grid-template-columns: 1fr; /* 1 column for small mobile devices */
+  }
+}
+
