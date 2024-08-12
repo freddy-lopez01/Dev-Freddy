@@ -10,9 +10,6 @@ const images = [
   { src: 'img14.jpg', alt: 'Photo 1' },
   { src: 'greentetra.jpg', alt: 'Photo 1' },
   { src: 'img15.jpg', alt: 'Photo 1' },
-
-
-
   { src: 'img7.jpg', alt: 'Photo 1' },
   { src: 'img2.jpg', alt: 'Photo 1' },
   { src: 'img9.jpg', alt: 'Photo 1' },

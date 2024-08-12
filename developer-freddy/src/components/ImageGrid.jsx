@@ -14,8 +14,7 @@ const ImageGrid = ({ images }) => {
           entry.target.classList.add('fade-in');
           observer.unobserve(entry.target);
         }
-      });
-    }, options);
+      }); }, options);
 
     imageItems.forEach((item, index) => {
       observer.observe(item);
