@@ -4,9 +4,12 @@
     align-items: center;
     margin-top: 20vh;
     padding: 30px;
-    background-color: #F4F5F4;
+    background-color: #faf9f6;
+    /*background-color: #faf9f6;#bdae97*/
+    /*background-color: #F4F5F4;*/
 }
 .zigzag-container h1{
+  color: rgba(38, 35, 35);
   padding:40px;
   font-size:80px;
 }
@@ -14,11 +17,12 @@
 .zigzag-card {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 60%;
     margin: 40px 0; /* Increased margin to add more space between cards */
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);*/
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    background-color: transparent;
     overflow: hidden;
     opacity: 0; /* Start invisible */
     transform: translateY(20px); /* Move down slightly */
@@ -30,18 +34,22 @@
 
 }
 .zigzag-card .card-image video {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding:25px;
     width: 100%;
     height: auto;
     max-height: auto; /* Adjust the height to your preference */
     object-fit: cover; /* Ensures the image/video covers the container proportionally */
+    border-radius: 20px;
 }
 
 .zigzag-card .card-image img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding:25px;
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .card-description h2{

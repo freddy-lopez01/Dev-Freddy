@@ -2,11 +2,15 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 4 columns for desktop */
   gap: 26px;
+  padding-left:40vh;
   padding: 45px;
 }
 
 .image-item {
   opacity: 0;
+  max-width: 40vh;
+  padding: 4vh;
+
   transform: translateY(20px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }

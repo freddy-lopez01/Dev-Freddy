@@ -1,5 +1,7 @@
 .gallery-grid {
   margin-top: 10vh;
+  justify-content: center;
+  display: flex;
 }
 
 

@@ -17,11 +17,13 @@ const SocialGrid = () => {
   return (
     <div className="grid-container">
       {socialMediaLinks.map((social, index) => (
+        <a href={social.url} target="_blank" rel="noopener noreferrer">
         <div key={index} className="grid-item">
           <a href={social.url} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={social.icon} />
           </a>
         </div>
+        </a>
       ))}
     </div>
   );

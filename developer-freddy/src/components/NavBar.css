@@ -1,5 +1,5 @@
 .Navbar {
-  background-color: rgba(17, 17, 17, .8);
+  background-color: rgba(157, 157, 157, .8);
   backdrop-filter: blur(6px);
   height: 100px;
   width: 100%;
@@ -14,8 +14,7 @@
 
 .Navbar-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   height: 80px;
   max-width: 100%;
 }
@@ -26,13 +25,13 @@
 }
 
 .navbar-logo {
-  color: #D2D2D2;
+  color: #d8d8d8;
+  color: #ecebe8;
   justify-self: start;
   justify-content: space-between;
-  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
 }
@@ -46,7 +45,7 @@
   text-align: center;
   width: 60vw;
   justify-content: end;
-  margin-right: 2rem;
+  font-size: 1.5rem;
 }
 
 .nav-item {
@@ -54,7 +53,9 @@
 }
 
 .nav-links {
-  color: #D2D2D2;
+  /*color: rgba(38, 35, 35);*/
+  color: #d8d8d8;
+  color: #ecebe8;
   display: flex;
   align-items: center;
   text-decoration: none;

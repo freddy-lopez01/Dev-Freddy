@@ -8,6 +8,7 @@
   margin: 0 auto;
   padding-top: 5vh;
   padding-bottom: 20vh;
+  color: rgba(38, 35, 35);
 }
 
 .grid-item {
@@ -16,8 +17,9 @@
   align-items: center;
   background-color: #f0f0f0;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .grid-item:hover {
