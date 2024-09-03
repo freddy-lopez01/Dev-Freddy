@@ -6,6 +6,7 @@ import NavBar from './components/NavBar.jsx';
 import Home from './components/Home.jsx';
 import Projects from './components/Projects.jsx';
 import Gallery from './components/Gallery.jsx';
+import MachineLearning from './components/MachineLearning.jsx';
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
       <Routes>
         <Route path='/' exact Component={Home}/>
         <Route path='/projects' exact Component={Projects}/>
-        <Route path='/gallery' exact Component={Gallery}/> </Routes>
+        <Route path='/gallery' exact Component={Gallery}/> 
+        <Route path='/machine-learning' exact Component={MachineLearning}/> 
+      </Routes>
     </Router>
 
     </>

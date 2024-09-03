@@ -10,13 +10,13 @@ const cards = [
     },
     {
         video: 'demo_usage.mov',
-        title: '..web designer',
+        title: '..a web designer',
         description: 'I have worked on a couple projects with a few peers of mine creating web apps, stand-alone pc application, iOS appplications, and google extensions. I enjoy front-end development as it is an area where I can express my creativity in a visual sense.',
         id: 4
     },
     {
         img: 'duo-tank.jpg',
-        title: '..an Aquascaper',
+        title: '..a Aquascaper',
         description: 'Aquascaping is my passion and the art of arranging aquatic plants, rocks, stones, and driftwood to create a beautiful underwater landscape. Whether I’m aiming for a simple, minimalistic design or a complex setup that resembles a natural environment like a forest or river, each project allows me to express my creativity. It requires me to be detail-oriented and patient, but the result is always worth the effort—a stunning piece of nature that brings tranquility and beauty into my home.',
         id: 2
     },
